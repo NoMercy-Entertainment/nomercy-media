@@ -1,0 +1,45 @@
+# Auto-detect and normalize
+* text=auto eol=lf
+
+# Text: playlists and metadata
+*.m3u8          text
+*.json          text
+*.md            text diff=markdown
+
+# Text: subtitles
+*.vtt           text
+*.srt           text
+*.ass           text
+
+# Binary: video segments
+*.ts            binary
+*.mp4           binary
+*.mkv           binary
+*.webm          binary
+
+# Binary: audio
+*.mp3           binary
+*.flac          binary
+*.aac           binary
+*.ogg           binary
+*.wav           binary
+
+# Binary: images
+*.jpg           binary
+*.jpeg          binary
+*.png           binary
+*.webp          binary
+*.svg           text
+
+# Binary: fonts
+*.ttf           binary
+*.TTF           binary
+*.woff          binary
+*.woff2         binary
+
+# Shell scripts (force LF)
+*.sh            text eol=lf
+
+# Linguist
+*.ts            linguist-detectable=false
+*.m3u8          linguist-detectable=false
