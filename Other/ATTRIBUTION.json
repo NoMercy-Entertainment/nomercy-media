@@ -1,0 +1,21 @@
+{
+  "scope": "library",
+  "library_overview": "Short clips from other creators, used in NoMercy posts and player demos. They are NOT open-licensed content and are NOT for redistribution. Removal requests from rights holders will be honored on contact.",
+  "clips": [
+    {
+      "title": "Don't Challenge Chat",
+      "creator": "Jakob (TheCodeDrift)",
+      "channel_url": "https://www.twitch.tv/thecodedrift",
+      "stream_title": "The Berlin Talk (while I avoid dealing with Stripe)",
+      "stream_category": "Software and Game Development",
+      "stream_date": "2026-11-12",
+      "duration_seconds": 55,
+      "resolution": "1920x1080",
+      "license": "All rights reserved by the creator",
+      "license_url": null,
+      "notice": "Used as a NoMercy player demo clip. Not for redistribution. Removal requests from the creator are honored on contact.",
+      "self_hosted_path": "Other/Twitch.Clips/Don't.Challenge.Chat.Jakob.mp4",
+      "thumbnail_path": "Other/Twitch.Clips/Don't.Challenge.Chat.Jakob.jpg"
+    }
+  ]
+}

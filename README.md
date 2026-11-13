@@ -19,6 +19,7 @@ as test material under the original rights holders' copyright (anime).
 | `Music/`  | 9 Free Music Archive albums                         | CC0 / CC BY / CC BY-NC-SA / CC BY-ND (per-album)         |
 | `Anime/`  | 2 test episodes — ASS subtitle + embedded-font fixtures | All rights reserved (test content only)               |
 | `Fonts/`  | Subtitle fonts referenced by Anime ASS files        | Per-font (see `fonts.json` inside each show)             |
+| `Other/`  | Creator clips used in posts (Twitch clips)          | All rights reserved by each creator (see `Other/ATTRIBUTION.md`) |
 
 Each section has a root `ATTRIBUTION.md` + `ATTRIBUTION.json`, plus per-item
 `ATTRIBUTION.md` + `.json` inside each film / album / show folder.
@@ -134,6 +135,7 @@ Detailed per-item attribution lives at:
 - `Films/ATTRIBUTION.md` (root index) and `Films/<Film>/ATTRIBUTION.md` (per-film)
 - `Music/ATTRIBUTION.md` (root index) and `Music/<Letter>/<Artist>/[<Year>] <Album>/ATTRIBUTION.md` (per-album)
 - `Anime/ATTRIBUTION.md` (root index) and `Anime/<Show>/ATTRIBUTION.md` (per-show)
+- `Other/ATTRIBUTION.md` (one entry per clip, with the creator, channel and stream)
 
 JSON equivalents (`ATTRIBUTION.json`) exist at every path for programmatic
 consumption.
